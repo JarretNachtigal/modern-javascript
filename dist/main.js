@@ -15,7 +15,7 @@
   \******************/
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-eval("/* global moment */\nvar moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\n\nlet gamerTime = moment().format(\"MMMM Do YYYY, h:mm:ss a\");\nconsole.log(\"gamer time = \" + gamerTime); // its always gamer time\n\n\n//# sourceURL=webpack://modern-javascript/./index.js?");
+eval("/* global moment */\nvar moment = __webpack_require__(/*! moment */ \"./node_modules/moment/moment.js\");\n\nvar gamerTime = moment().format(\"MMMM Do YYYY, h:mm:ss a\");\nconsole.log(\"gamer time = \" + gamerTime); // its always gamer time\n\n//# sourceURL=webpack://modern-javascript/./index.js?");
 
 /***/ }),
 
